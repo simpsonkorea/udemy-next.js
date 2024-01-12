@@ -1,0 +1,61 @@
+.postForm {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.postForm input,
+.postForm textarea {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.postForm button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.postForm button:hover {
+    background-color: #45a049;
+}
+
+.postForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Add this line */
+    /* ... other styles ... */
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+    z-index: 1; /* Add this line */
+    position: relative; /* Add this line */
+  }
+  
+  .input {
+    margin: 10px 0;
+  }
+  
+  .submit-button {
+    margin: 10px 0;
+  }
+  
+  .content {
+    margin-top: 2.5em; /* Adjust this value based on the height of your h1 element */
+  }
